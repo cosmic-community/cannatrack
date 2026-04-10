@@ -25,9 +25,19 @@ module.exports = {
           25: '#fcfcfd',
           75: '#f3f4f7',
         },
+        glass: {
+          surface: 'hsl(var(--glass-tint-h) var(--glass-tint-s) var(--glass-tint-l) / <alpha-value>)',
+          border: 'hsl(var(--glass-border-h) var(--glass-border-s) var(--glass-border-l) / <alpha-value>)',
+        },
       },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+      },
+      borderRadius: {
+        glass: 'var(--glass-radius)',
+      },
+      boxShadow: {
+        glass: '0 12px var(--glass-shadow) hsl(0 0% 0% / var(--glass-shadow-opacity))',
       },
     },
   },

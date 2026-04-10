@@ -17,7 +17,7 @@ export default function BottomNav() {
 
   return (
     <nav
-      className="lg:hidden fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 z-40 safe-area-bottom"
+      className="lg:hidden fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 z-40 safe-area-bottom glass-nav"
       aria-label="Mobile navigation"
     >
       <div className="flex items-center justify-around h-16 max-w-lg mx-auto px-1">
